@@ -1,70 +1,53 @@
-body, html{
-    height:100%;
-    margin:0;
-    font-size:16px;
-    font-family:"Lato", sans-serif;
-    font-weight:400;
-    line-height:1.8em;
-    color:#666;
-
-}
-.pimg1, .pimg2, .pimg3{
-    position:relative;
-    opacity:0.70;
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-
-    background-attachment:fixed;
+body {
+  font-family: sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
 }
 
-.pimg1{
-    background-image:url('../sarte/img/1ST.jpeg');
-    min-height:100%;
-
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
 }
 
-.pimg2{
-    background-image:url('../sarte/img/2ND.jpeg');
-    min-height:400px;
-
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.pimg3{
-    background-image:url('../sarte/img/3RD.jpeg');
-    min-height:400px;
-
+label {
+  display: block;
+  margin-bottom: 5px;
 }
 
-.section{
-    text-align:center;
-    padding:50px 80px;
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
 }
 
-.section-light{
-    background-color:#f4f4f4;
-    color:#666;
-
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
-.section-dark{
-    background-color:#282e34;
-    color:#ddd;
-    
+button:hover {
+  opacity: 0.8;
 }
 
-.ptext{
-    position:absolute;
-    top:50%;
-    width:100%;
-    text-align:center;
-    color:#000;
-    font-size:27px;
-    letter-spacing:8px;
-    text-transform:uppercase;
 
-
-
-}
 
 
